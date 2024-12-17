@@ -7,6 +7,7 @@ $ git clone https://github.com/balckowl/git-renshuu.git
 ```
 
 2 作成された`git-renshuu`をvscodeで開く
+
 3 作業するために自分の名前でブランチを切ろう
 
 ```
