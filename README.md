@@ -3,7 +3,7 @@
 1 リポジトリを手元でクローンする
 
 ```
-$ git clone <url>
+$ git clone https://github.com/balckowl/git-renshuu.git
 ```
 
 2 作成された`git-renshuu`をvscodeで開く
@@ -40,8 +40,11 @@ $ git push -u origin <branch-name>
 
 
 1 リポジトリまで言って、新しいPRを作成する
+
 2 どんな作業をしたか、詳細を記載
+
 3 PRを出し、「LGTM」が帰ってきたらマージする
+
 4 以下のコマンドで`main`ブランチに移動
 
 ```
