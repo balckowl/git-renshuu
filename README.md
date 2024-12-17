@@ -14,6 +14,7 @@ $ git switch -c feat/<your-name>
 ```
 
 4 `src`ディレクトリに自分のgithub名で`.md`ファイルを作成
+
 ファイルの中には自分のgithub名を書いてください。
 
 
