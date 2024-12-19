@@ -71,6 +71,7 @@ $ git pull
 
 # 発展課題
 1 issue > タスク管理から私のコメントを編集し、タスクを追加しましょう。
+
 タスク名は`<your name>-headerの作成`にしてください。
 
 <img width="926" alt="スクリーンショット 2024-12-19 13 45 33" src="https://github.com/user-attachments/assets/0fe15ed3-37ac-4fb4-8e8f-9d1c027b9e51" />
