@@ -76,6 +76,12 @@ $ git pull
 
 <img width="926" alt="スクリーンショット 2024-12-19 13 45 33" src="https://github.com/user-attachments/assets/0fe15ed3-37ac-4fb4-8e8f-9d1c027b9e51" />
 
-2 
+2 右側をホバーするとボタンが出てくるので、クリックしてください。
+
+<img width="979" alt="スクリーンショット 2024-12-19 13 48 45" src="https://github.com/user-attachments/assets/c60bb87b-7e3b-41c7-951b-f9f1eddab2ba" />
+
+クリックするとissueが作成されます。
+
+<img width="926" alt="スクリーンショット 2024-12-19 13 45 33" src="https://github.com/user-attachments/assets/1856430b-8768-4d1d-b10b-de31af616952" />
 
 
