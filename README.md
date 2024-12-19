@@ -69,4 +69,74 @@ $ git switch main
 $ git pull
 ```
 
+# 発展課題（headerを作成する際の流れ）
+1 issue > タスク管理から私のコメントを編集し、タスクを追加しましょう。
+
+タスク名は`<your name>-headerの作成`にしてください。
+
+<img width="926" alt="スクリーンショット 2024-12-19 13 45 33" src="https://github.com/user-attachments/assets/0fe15ed3-37ac-4fb4-8e8f-9d1c027b9e51" />
+
+2 右側をホバーするとボタンが出てくるので、クリックしてください。
+
+<img width="979" alt="スクリーンショット 2024-12-19 13 48 45" src="https://github.com/user-attachments/assets/c60bb87b-7e3b-41c7-951b-f9f1eddab2ba" />
+
+クリックすると自分のタスクのissueが作成されます。
+
+<img width="1267" alt="スクリーンショット 2024-12-19 13 49 27" src="https://github.com/user-attachments/assets/0f72f276-51e2-4d82-a76f-33b3638d50d6" />
+
+
+3 作業するために自分の名前でブランチを切ろう
+
+```
+$ git switch -c feat/<your-name>/header
+```
+
+4 `src`ディレクトリに`<your name>-header.md`ファイルを作成
+
+ファイルの中には自分の`heeader`とわざとスペルミスした文字列を書いてください。
+
+5 ステージングしよう
+
+```
+$ git add .
+```
+
+6 コミットしよう
+
+```
+$ git commit -m "feat: <what-work-did-you-do>"
+```
+
+7 リモートにpushする
+
+```
+$ git push -u origin <branch-name>
+```
+
+8 前のタスクと同様の方法でprを送ります。
+
+今回はprを送る際に`close #<your-issue-number>`と書いてください。これをすることで、指定した番号のissueをマージと同時に閉じることができます。
+
+9 わざと間違えたので、レビューで指摘を受けます。
+
+指摘を受けたら、prを送ったブランチ上でミスを修正し、再度ステージング、コミット、プッシュを行います。
+
+その際のコミットメッセージは以下のようにしてください。
+
+```
+$ git commit -m "fix: スペルミスを修正"
+```
+
+10 すでにprは立ててあるので、もうprは送る必要はありません。
+
+「LGTM」が帰ってきたら、前のタスク同様に、マージを行なってください。
+
+11 マージ後は自分のタスクがクローズしていることをissueから確認してください。
+
+また、タスク管理のチェックボックスにはチェックが入ります。これでタスクの進捗を管理することができます。
+<img width="968" alt="スクリーンショット 2024-12-19 14 02 32" src="https://github.com/user-attachments/assets/0841c89a-c23b-4294-bf9e-8fe501b1e917" />
+
+
+
+
 
