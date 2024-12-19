@@ -69,7 +69,7 @@ $ git switch main
 $ git pull
 ```
 
-# 発展課題
+# 発展課題（headerを作成する際の流れ）
 1 issue > タスク管理から私のコメントを編集し、タスクを追加しましょう。
 
 タスク名は`<your name>-headerの作成`にしてください。
@@ -80,8 +80,39 @@ $ git pull
 
 <img width="979" alt="スクリーンショット 2024-12-19 13 48 45" src="https://github.com/user-attachments/assets/c60bb87b-7e3b-41c7-951b-f9f1eddab2ba" />
 
-クリックするとissueが作成されます。
+クリックすると自分のタスクのissueが作成されます。
 
-<img width="926" alt="スクリーンショット 2024-12-19 13 45 33" src="https://github.com/user-attachments/assets/1856430b-8768-4d1d-b10b-de31af616952" />
+<img width="1267" alt="スクリーンショット 2024-12-19 13 49 27" src="https://github.com/user-attachments/assets/0f72f276-51e2-4d82-a76f-33b3638d50d6" />
+
+
+3 作業するために自分の名前でブランチを切ろう
+
+```
+$ git switch -c feat/<your-name>/header
+```
+
+4 `src`ディレクトリに`<your name>-header.md`ファイルを作成
+
+ファイルの中には自分の`heeader`とわざとスペルミスした文字列を書いてください。
+
+5 ステージングしよう
+
+```
+$ git add .
+```
+
+6 コミットしよう
+
+```
+$ git commit -m "feat: <what-work-did-you-do>"
+```
+
+7 リモートにpushする
+
+```
+$ git push -u origin <branch-name>
+```
+
+
 
 
