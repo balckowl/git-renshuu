@@ -69,4 +69,8 @@ $ git switch main
 $ git pull
 ```
 
+# 発展課題
+1 issue > タスク管理からタスクを作成しましょう。
+
+
 
