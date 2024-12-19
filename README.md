@@ -69,7 +69,7 @@ $ git switch main
 $ git pull
 ```
 
-# 発展課題（headerを作成する際の流れ）
+# 実際の開発の流れ（headerを作成する際の流れ）
 1 issue > タスク管理から私のコメントを編集し、タスクを追加しましょう。
 
 タスク名は`<your name>-headerの作成`にしてください。
